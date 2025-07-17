@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class Player : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class Player : MonoBehaviour
     private bool morreu = true;
     private bool temMana = true;
     private float inputH;
+    private Animator animator;
+    private SpriteRenderer sprite;
     private Rigidbody2D rb;
     private SistemaDeVida sVida;
 
@@ -23,6 +26,8 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sVida = GetComponent<SistemaDeVida>();
+        animator = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -45,6 +50,25 @@ public class Player : MonoBehaviour
     {
         inputH = Input.GetAxis("Horizontal");
         transform.position += new Vector3(inputH * Time.deltaTime * velocidadeAndar, 0, 0);
+        AnimaAndar();
+    }
+
+    private void AnimaAndar()
+    {
+        if (inputH > 0)
+        {
+            sprite.flipX = false;
+            animator.SetBool("Run", true);
+        }
+        else if (inputH < 0)
+        {
+            sprite.flipX = true;
+            animator.SetBool("Run", true);
+        }
+        else
+        {
+            animator.SetBool("Run", false);
+        }
     }
 
     private void Pular()
@@ -53,6 +77,8 @@ public class Player : MonoBehaviour
         {
             rb.AddForce(Vector2.up * forcaPulo, ForceMode2D.Impulse);
             noPiso = false;
+            animator.SetBool("Piso", false);
+            animator.SetTrigger("Pulo");
         }
     }
 
@@ -63,6 +89,7 @@ public class Player : MonoBehaviour
             StartCoroutine(LancarAtaque());
         }
     }
+
 
     IEnumerator LancarAtaque()
     {
@@ -102,6 +129,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Piso"))
         {
             noPiso = true;
+            animator.SetBool("Piso", true);
         }
     }
 }
