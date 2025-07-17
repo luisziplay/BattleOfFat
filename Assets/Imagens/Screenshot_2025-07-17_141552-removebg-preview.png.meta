@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 3ebdc0da5ab90bf4fb91fc80ee2f118b
+<<<<<<<< HEAD:Assets/Imagens/Tabua.png.meta
+guid: b60d777941a84da4797b1198529e3327
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2580961794444877512
     second: Tabua_0
+========
+guid: 572d3881bffcef84b93a635480c06fbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7002689139734131437
+    second: Screenshot_2025-07-17_141552-removebg-preview_0
+>>>>>>>> ee8c965010290647f6e6800b03c5f820f926c6f8:Assets/Imagens/Screenshot_2025-07-17_141552-removebg-preview.png.meta
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +148,17 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<<< HEAD:Assets/Imagens/Tabua.png.meta
       name: Tabua_0
+========
+      name: Screenshot_2025-07-17_141552-removebg-preview_0
+>>>>>>>> ee8c965010290647f6e6800b03c5f820f926c6f8:Assets/Imagens/Screenshot_2025-07-17_141552-removebg-preview.png.meta
       rect:
         serializedVersion: 2
-        x: 88
-        y: 218
-        width: 324
-        height: 64
+        x: 23
+        y: 53
+        width: 192
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +167,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<<< HEAD:Assets/Imagens/Tabua.png.meta
       spriteID: 8ceddb8d31b61d320800000000000000
       internalID: 2580961794444877512
+========
+      spriteID: 31d49a9445371de90800000000000000
+      internalID: -7002689139734131437
+>>>>>>>> ee8c965010290647f6e6800b03c5f820f926c6f8:Assets/Imagens/Screenshot_2025-07-17_141552-removebg-preview.png.meta
       vertices: []
       indices: 
       edges: []
@@ -173,7 +191,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<<< HEAD:Assets/Imagens/Tabua.png.meta
     nameFileIdTable: {}
+========
+    nameFileIdTable:
+      Screenshot_2025-07-17_141552-removebg-preview_0: -7002689139734131437
+>>>>>>>> ee8c965010290647f6e6800b03c5f820f926c6f8:Assets/Imagens/Screenshot_2025-07-17_141552-removebg-preview.png.meta
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

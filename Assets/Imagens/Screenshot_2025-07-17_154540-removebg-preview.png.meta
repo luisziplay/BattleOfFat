@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 32f9a015f6f08e0418b454498008df17
+guid: dedce9474fea7e24ab2cc70e4a9f46df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9094589509605756419
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_0
-  - first:
-      213: -8798115947377538265
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_1
-  - first:
-      213: -937534175857168407
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_2
-  - first:
-      213: -234026999398306106
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_3
+      213: 5071640113742581671
+    second: Screenshot_2025-07-17_154540-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_0
+      name: Screenshot_2025-07-17_154540-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 17
-        width: 36
-        height: 45
+        x: 16
+        y: 14
+        width: 230
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,74 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df174f5b60789c180800000000000000
-      internalID: -9094589509605756419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 11
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72bccd70920d6e580800000000000000
-      internalID: -8798115947377538265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_2
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 11
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9efae3362a53df2f0800000000000000
-      internalID: -937534175857168407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 17
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ce63091fa190ccf0800000000000000
-      internalID: -234026999398306106
+      spriteID: 7af8f3010d5126640800000000000000
+      internalID: 5071640113742581671
       vertices: []
       indices: 
       edges: []
@@ -249,10 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_0: -9094589509605756419
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_1: -8798115947377538265
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_2: -937534175857168407
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_3: -234026999398306106
+      Screenshot_2025-07-17_154540-removebg-preview_0: 5071640113742581671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
