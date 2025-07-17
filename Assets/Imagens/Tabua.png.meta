@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 32f9a015f6f08e0418b454498008df17
+guid: d611fc715b1eabb488e9fedf1e87b041
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9094589509605756419
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_0
-  - first:
-      213: -8798115947377538265
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_1
-  - first:
-      213: -937534175857168407
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_2
-  - first:
-      213: -234026999398306106
-    second: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_3
+      213: 2580961794444877512
+    second: Tabua_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -148,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_0
+      name: Tabua_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 17
-        width: 36
-        height: 45
+        x: 88
+        y: 218
+        width: 324
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,74 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df174f5b60789c180800000000000000
-      internalID: -9094589509605756419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 11
-        width: 11
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72bccd70920d6e580800000000000000
-      internalID: -8798115947377538265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_2
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 11
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9efae3362a53df2f0800000000000000
-      internalID: -937534175857168407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura_de_tela_2025-07-14_162808__6_-removebg-preview_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 17
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ce63091fa190ccf0800000000000000
-      internalID: -234026999398306106
+      spriteID: 8ceddb8d31b61d320800000000000000
+      internalID: 2580961794444877512
       vertices: []
       indices: 
       edges: []
@@ -239,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +173,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_0: -9094589509605756419
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_1: -8798115947377538265
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_2: -937534175857168407
-      Captura_de_tela_2025-07-14_162808__6_-removebg-preview_3: -234026999398306106
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

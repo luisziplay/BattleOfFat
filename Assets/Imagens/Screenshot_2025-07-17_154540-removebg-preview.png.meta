@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ca9443af666a5b2458a4c60ea395424d
+guid: dedce9474fea7e24ab2cc70e4a9f46df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1281899619622765331
-    second: pixel-art-illustration-rolling-pin-pixelated-kitchen-roll-kitchen-rolling-pin-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-old-school-retro-vector-removebg-preview_0
+      213: 5071640113742581671
+    second: Screenshot_2025-07-17_154540-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixel-art-illustration-rolling-pin-pixelated-kitchen-roll-kitchen-rolling-pin-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-old-school-retro-vector-removebg-preview_0
+      name: Screenshot_2025-07-17_154540-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 88
-        y: 218
-        width: 324
-        height: 64
+        x: 16
+        y: 14
+        width: 230
+        height: 230
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 313c25989e83ac110800000000000000
-      internalID: 1281899619622765331
+      spriteID: 7af8f3010d5126640800000000000000
+      internalID: 5071640113742581671
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pixel-art-illustration-rolling-pin-pixelated-kitchen-roll-kitchen-rolling-pin-icon-pixelated-for-the-pixel-art-game-and-icon-for-website-and-game-old-school-retro-vector-removebg-preview_0: 1281899619622765331
+      Screenshot_2025-07-17_154540-removebg-preview_0: 5071640113742581671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
