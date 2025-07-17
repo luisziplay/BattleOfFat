@@ -1,7 +1,6 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.U2D;
 
 public class Player : MonoBehaviour
 {
@@ -16,18 +15,20 @@ public class Player : MonoBehaviour
     private bool morreu = true;
     private bool temMana = true;
     private float inputH;
+    private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer sprite;
-    private Rigidbody2D rb;
     private SistemaDeVida sVida;
+    private SpriteRenderer spriteRenderer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sVida = GetComponent<SistemaDeVida>();
         animator = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        sVida = GetComponent<SistemaDeVida>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -51,6 +52,15 @@ public class Player : MonoBehaviour
         inputH = Input.GetAxis("Horizontal");
         transform.position += new Vector3(inputH * Time.deltaTime * velocidadeAndar, 0, 0);
         AnimaAndar();
+
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        {
+            spriteRenderer.flipX = false;
+        }
     }
 
     private void AnimaAndar()
@@ -90,7 +100,6 @@ public class Player : MonoBehaviour
         }
     }
 
-
     IEnumerator LancarAtaque()
     {
         if(atak && temMana)
@@ -129,7 +138,9 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Piso"))
         {
             noPiso = true;
-            animator.SetBool("Piso", true);
+
         }
     }
+
+
 }

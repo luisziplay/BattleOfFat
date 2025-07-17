@@ -8,6 +8,7 @@ public class SistemaDeVida : MonoBehaviour
 {
     [SerializeField] private Slider indicadorVida;
     [SerializeField] private Slider indicadorMana;
+    [SerializeField] private int danoInim;
     private int vida = 100;
     private int mana = 100;
     //private int manaMaxima = 100;
@@ -53,7 +54,6 @@ public class SistemaDeVida : MonoBehaviour
     }
     IEnumerator LevarDano(int dano)
     {
-
         if(vida > 0 && levarDano)
         {
             VerificarVida();
@@ -64,7 +64,6 @@ public class SistemaDeVida : MonoBehaviour
             levarDano = true;
         }
     }
-
 
     public void UsarMana()
     {
@@ -93,7 +92,14 @@ public class SistemaDeVida : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Espinho") && estahVivo && levarDano)
         {
-            StartCoroutine(LevarDano(10));
+            LevarDano(10);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("TiroInim"))
+        {
+            LevarDano(danoInim);
         }
     }
 }
